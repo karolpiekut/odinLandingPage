@@ -4,16 +4,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header, .one, footer {
     background: #1F2937;
     color: #F9FAF8;
     padding: 0 200px;
 }
+
 .two, .three, .four {
-    padding: 0 200px;
+    padding: 100px 200px;
+    min-height: 220px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,4 +42,53 @@ a {
 h1 {
     font-weight: bolder;
     font-size: 48px;
+    margin: 0;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.one {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 220px;
+}
+
+.left-one-half, .right-one-half {
+    flex: 0 1 calc(50% - 10px);
+}
+
+.right-one-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.left-one-half {
+    margin: 0;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    border-radius: 10px;
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 33px;
+    max-height: 33px;
+    border-width: 0;
+}
+.two {
+
 }
