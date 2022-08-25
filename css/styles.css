@@ -13,7 +13,7 @@ header, .one, footer {
 
 .two, .three, .four {
     padding: 100px 200px;
-    min-height: 220px;
+    min-height: 180px;
 }
 
 header {
@@ -45,6 +45,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
@@ -90,5 +96,46 @@ button {
     border-width: 0;
 }
 .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+    padding-top:50px;
+}
 
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-flow: row wrap;
+}
+
+.image {
+    border-width: 3px;
+    border-color: #3882f6;
+    border-style: solid;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-desc {
+    max-width: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+}
+
+.three {
+    background: #E5E7EB;
 }
