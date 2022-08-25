@@ -138,4 +138,23 @@ button {
 
 .three {
     background: #E5E7EB;
+    padding: 50px 350px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: large;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0;
+    padding-right: 30px;
 }
