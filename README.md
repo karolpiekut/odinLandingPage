@@ -1,3 +1,5 @@
 # odinLandingPage
-The font that’s being used in the images is roboto.
-Hero text is the statement that appears at the top of a web page.
+The Odin Project HTML basics landing page project. 
+
+CSS to be cleaned up
+Re-sizing to be fixed etc.
