@@ -9,6 +9,7 @@ header, .one, footer {
     background: #1F2937;
     color: #F9FAF8;
     padding: 0 200px;
+    min-width: 75vw;
 }
 
 .two, .three, .four {
@@ -169,7 +170,6 @@ button {
     gap: 160px;
     color: white;
     min-height: 100px;
-
 }
 
 .four button {
@@ -178,7 +178,6 @@ button {
 }
 .four-left {
     margin: 0;
-    padding: 0;
 }
 
 footer {
